@@ -32,7 +32,7 @@ public class Student {
     }
 
     public double getAverage() {
-        return average;
+        return average+1;
     }
 
     public void setAverage(double average) {
