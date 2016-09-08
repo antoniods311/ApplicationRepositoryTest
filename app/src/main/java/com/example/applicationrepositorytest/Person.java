@@ -38,4 +38,8 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String print(){
+        return this.name+" - "+this.surname+" - "+this.age;
+    }
 }
